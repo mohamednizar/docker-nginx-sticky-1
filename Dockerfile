@@ -24,6 +24,7 @@ RUN GPG_KEYS=B0F4253373F8F6F510D42178520A9993A1C052F8 \
 		--group=nginx \
 		--with-http_realip_module \
 		--with-http_addition_module \
+		--with-http_stub_status_module \
 		--with-http_sub_module \
 		--with-http_gunzip_module \
 		--with-http_gzip_static_module \
